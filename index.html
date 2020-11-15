@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Cukiernia</title>
+</head>
+
+<body>
+    <div class="nav" id="glowna">
+        <div class="logo"><img src="img/donut.jpg   " alt="logo"></div>
+        <div class="menu">
+            <a href="#nav">Główna</a>
+            <a href="#container_onas">O nas</a>
+            <a href="#sklep">Sklep</a>
+        </div>
+        <div class="tel"><img src="img/phone.svg" alt="telefon"><a href="tel:573219230">573 219 230</a></div>
+        <dic class="cart"><button id="btn"><img src="img/cart.svg" alt="koszyk"><span  id="cart">Do zapłaty 0 PLN</span></button></dic>
+    </div>
+    <div class="container_fluid">
+        <div class="h1">
+            <h2>Witamy u <span>Babci</span></h2>
+        </div>
+        <div class="odkryj"><button><a href="#sklep"> ODKRYJ</a></button></div>
+
+        <div class="woz"><h2>Twój koszyk</h2>
+            <div id="woz1"></div>
+            <div id="woz2"></div>
+            <div id="woz3"></div>
+            <div id="woz4"></div>
+            <div id="woz5"></div>
+            <div id="woz6"></div>
+            <div id="woz7"></div>
+            <div id="woz8"></div>
+            <div id="woz9"></div>
+            <div id="woz10"></div>
+            <div id="woz11"></div>
+            <div id="woz12"></div>
+            <div class="przyciski">
+                <button onclick="wyczysc()">Wyczyść</button><button><a href="https://www.paypal.com/pl/home" target="_blank"> Kasa</a></button>
+            </div>
+
+
+    </div>
+    </div>
+
+    <div class="container_onas" id="container_onas">
+        <div class="onas">
+            <div><h2>O <span> Nas</span> </h2></div>
+           <div> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ipsum accusamus vero officia quibusdam
+                odit voluptas laboriosam architecto excepturi, sapiente reprehenderit recusandae voluptatem velit
+                facilis nisi fugiat quaerat, autem consequatur.</p></div>
+            <div><button><a href="#glowna"> Główna </a></button></div>
+
+        </div>
+        <div class="wrap_img">
+            <div class="onas_img">
+                <img src="img/imgOnas.jpg" alt="ciastka">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container_sklep" id="sklep">
+
+        <div class="sklep_name">
+            <h1>
+                Nasz <span>
+                    Sklep</span>
+            </h1>
+        </div>
+        <div class="sklep_menu">
+            <button>Wszystko</button>
+            <button>Ciastka</button>
+            <button>Babeczki</button>
+            <button>Słodycze</button>
+            <button>Pączki</button>
+            
+
+        </div>
+        <div class="sklep_szukaj">
+            <label for="szukaj"><img src="img/lupa.svg" alt="">
+                <input type="search" name="szukaj" id="szukaj" placeholder="szukaj...   ">
+            </label>
+        </div>
+    </div>
+    <div class="container_img">
+        <div class="przyklad " data="ciasto" > ciasto1  12PLN<img src="img/cart.svg" alt=""><img name="img1" src="img/ciasto1.jpg" alt="">
+        </div>
+        <div class="przyklad "data="ciasto" >ciasto2  12PLN<img src="img/cart.svg" alt=""><img name="img2" src="img/ciasto2.jpg" alt="">
+        </div>
+        <div class="przyklad " data="ciasto" >ciasto3  12PLN<img src="img/cart.svg" alt=""><img name="img3" src="img/ciasto3.jpg" alt="">
+        </div>
+        <div class="przyklad" data="babeczki">babeczka4  15 PLN<img src="img/cart.svg" alt=""><img name="img4" src="img/ciasto4.jpg" alt="">
+        </div>
+        <div class="przyklad" data="babeczki">babeczka5  15PLN<img src="img/cart.svg" alt=""><img name="img5" src="img/ciasto5.jpg" alt="">
+        </div>
+        <div class="przyklad" data="babeczki">babeczka6  15PLN<img src="img/cart.svg" alt=""><img name="img6" src="img/ciasto6.jpg" alt="">
+        </div>
+        <div class="przyklad" data="slodycze">słodycze7  13PLN<img src="img/cart.svg" alt=""><img name="img7" src="img/ciasto7.jpg" alt="">
+        </div>
+        <div class="przyklad" data="slodycze">słodycze8  13PLN<img src="img/cart.svg" alt=""><img name="img8" src="img/ciasto8.jpg" alt="">
+        </div>
+        <div class="przyklad" data="slodycze">słodycze9  13PLN<img src="img/cart.svg" alt=""><img name="img9" src="img/ciasto9.jpg" alt="">
+        </div>
+        <div class="przyklad" data="paczki">pączki10  10PLN<img src="img/cart.svg" alt=""><img name="img10" src="img/ciasto10.jpg" alt="">
+        </div>
+        <div class="przyklad" data="paczki">pączki11  10PLN<img src="img/cart.svg" alt=""><img name="img11" src="img/ciasto11.jpg" alt="">
+        </div>
+        <div class="przyklad" data="paczki">pączki12  10PLN<img src="img/cart.svg" alt=""><img name="img12" src="img/ciasto12.jpg" alt="">
+        </div>
+    </div>
+    <div class="logo"><a href="mailto:ajarek@poczta.onet.pl" ><img src="img/logo2.PNG" alt="husky"></a></div>
+    <script src="script.js"></script>
+    <script src="koszyk.js"></script>
+
+    
+</body>
+
+</html>
